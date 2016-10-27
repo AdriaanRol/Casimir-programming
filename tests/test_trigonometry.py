@@ -2,7 +2,7 @@
 import numpy as np
 from unittest import TestCase
 
-from trigonometry import circles
+from geometry import circles
 
 
 class TestCircles(TestCase):
