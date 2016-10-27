@@ -22,7 +22,7 @@ def _test_core(test_pattern='test*.py', **kwargs):
     import unittest
     import tests
     suite = unittest.defaultTestLoader.discover(
-        tests.__path__[0], #top_level_dir=pycqed.__path__[0],
+        tests.__path__[0],
         pattern=test_pattern)
     if suite.countTestCases() == 0:
         print('found no tests')
